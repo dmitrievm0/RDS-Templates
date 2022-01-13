@@ -734,9 +734,9 @@
       "tags": "[parameters('applicationGroupTags')]",
       "properties": {
         "hostpoolarmpath": "[resourceId('Microsoft.DesktopVirtualization/hostpools/', parameters('hostpoolName'))]",
-        "friendlyName": "Default Desktop",
-        "description": "Desktop Application Group created through the Hostpool Wizard",
-        "applicationGroupType": "Desktop"
+        "friendlyName": "testApp",
+        "description": "testApp",
+        "applicationGroupType": "RailApplications"
       },
       "dependsOn": [
         "[resourceId('Microsoft.DesktopVirtualization/hostpools/', parameters('hostpoolName'))]"
